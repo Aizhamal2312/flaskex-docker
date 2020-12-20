@@ -1,5 +1,5 @@
 FROM python
-LABEL maintainer="ikambarov@yahoo.com"
+LABEL maintainer="jakusya1991@gmail.com"
 COPY Flaskex/ /Flaskex/
 WORKDIR /Flaskex/
 RUN pip install -r requirements.txt
